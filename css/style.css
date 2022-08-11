@@ -10,9 +10,24 @@
     color:rgb(211, 210, 210);
     font-family: sans-serif, Arial ;
 }
+.nav_body{
+    background-color:rgb(178, 208, 247);
+}
 .nav_body a{
     display:block;
+    text-decoration:none;
     padding:10px;
     font-size:15px;
-    background-color:rgb(178, 208, 247);
+   
+}
+.activities{
+    display:flex;
+    justify-content: space-around;
+}
+.activity{
+
+    width:230px;
+    height:150px;
+    border-radius:8px;
+    box-shadow:0px 2px 5px #ccc;
 }
