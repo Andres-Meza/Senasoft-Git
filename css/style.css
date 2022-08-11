@@ -4,3 +4,15 @@
     box-sizing:border-box;
 }
 
+.container{
+    display:grid;
+    grid-template-columns: 20% 80%;
+    color:rgb(211, 210, 210);
+    font-family: sans-serif, Arial ;
+}
+.nav_body a{
+    display:block;
+    padding:10px;
+    font-size:15px;
+    background-color:rgb(178, 208, 247);
+}
